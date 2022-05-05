@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/JonatasFO/tech-lab.git",
-  "author": "Jonatas Ferreira de Oliveira <jonatasoliveira@cvccorp.com.br>",
+  "author": "Jonatas Ferreira de Oliveira",
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev src/server.ts"
