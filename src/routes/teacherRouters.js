@@ -6,7 +6,7 @@ router.post("/", async (request, response) => {
   const { name, cpf, matricula, materia } = request.body;
 
   if (!name) {
-    response.starus(422).json({ error: "O campo nome é obrigatório!" });
+    response.status(422).json({ error: "O campo nome é obrigatório!" });
     return;
   }
 
